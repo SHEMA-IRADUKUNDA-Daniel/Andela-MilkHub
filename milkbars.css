@@ -1,0 +1,249 @@
+/* img{
+    width: 70px;
+}
+.title{
+    padding: 20px;
+    color: wheat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.milkBars{
+    min-width: 700px;
+    margin: 20px 50px 20px 50px;
+}
+
+h2{
+    color: white;
+    padding: 10px;
+}
+
+
+p{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+h4{
+    color: rgb(238, 233, 188);
+    margin: 10px;
+}
+span{
+    color: aliceblue;
+    cursor: pointer;
+}
+.milkBar{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(75, 166, 75);
+    padding: 20px;
+    background-color:rgb(50, 137, 169, 0.9) ;
+    max-width:  800px;
+}
+.container{
+    height: auto;
+}
+
+.checked{
+    color: yellow;
+}
+.rate{
+    padding: 20px;
+}
+hr{
+    margin-top: 70px;
+}
+
+.reviews{
+    color: rgb(243, 243, 85);
+}
+h5{
+    color: wheat;
+}
+
+@media screen and (max-width:750px) {
+
+    .milkBars {
+        min-width: 600px;
+        margin: 20px 50px 20px 50px;
+    }
+}
+@media screen and (max-width:650px) {
+    .link{
+        padding: 5px;
+    }
+    .milkBars {
+        min-width: 500px;
+        margin: 20px 50px 20px 50px;
+        padding: 0px 20px;
+    }
+} */
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(23, 57, 69, 0.9);
+    margin: 0 auto;
+    height: 100vh;
+}
+
+img {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.title {
+    padding: 20px;
+    color: rgb(241, 241, 70);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.milkBars {
+    min-width: 700px;
+    margin: 20px 50px 20px 50px;
+}
+
+.milkzoneName {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.milkzoneName:active {
+    color: rgb(99, 210, 99);
+}
+
+
+.milkZoneTagLine {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.supplied {
+    color: rgb(238, 233, 188);
+    margin: 10px;
+}
+
+.supplier {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.milkBar {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(75, 166, 75);
+    padding: 20px;
+    background-color: rgb(50, 137, 169, 0.9);
+    max-width: 800px;
+}
+
+.container {
+    height: auto;
+}
+
+.checked {
+    color: yellow;
+}
+
+.rate {
+    padding: 10px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.leftReview {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.reviews {
+    color: rgb(243, 243, 85);
+}
+
+.reviewer {
+    color: wheat;
+    margin-top: 20px;
+}
+
+.addReview {
+    display: flex;
+    flex-direction: column;
+}
+
+.rateName {
+    font-size: 15px;
+    padding: 6px;
+    border: none;
+    margin: 10px 30px 10px 30px;
+    color: white;
+    background-color: rgba(23, 57, 69, 0.9);
+    border: 2px solid white;
+}
+
+textarea {
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 70px 10px 70px;
+    background-color: rgba(23, 57, 69, 0.9);
+    color: white;
+    border: 2px solid white;
+}
+
+.post {
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 100px 10px 100px;
+    cursor: pointer;
+    border: 3px solid rgb(75, 166, 75);
+
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.rateName::placeholder {
+    color: white;
+}
+
+@media screen and (max-width:750px) {
+
+    .milkBars {
+        min-width: 600px;
+        margin: 20px 50px 20px 50px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .link {
+        padding: 5px;
+    }
+
+    .milkBars {
+        min-width: 500px;
+        margin: 20px 50px 20px 50px;
+        padding: 0px 20px;
+    }
+}

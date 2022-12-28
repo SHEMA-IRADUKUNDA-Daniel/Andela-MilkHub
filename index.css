@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background: url(/images/Longhorn-Ankole-Cows-yuri-yabi-01.png) no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: rgb(100, 137, 169);
+}
+
+.navigation {
+    background: rgb(14, 92, 160);
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid yellow;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#logo:hover {
+    color: rgb(75, 166, 75);
+
+}
+
+.lists {
+    float: right;
+    display: flex;
+    line-height: 100px;
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: yellow;
+    transform: 2s;
+    background-color: rgb(66, 111, 151);
+}
+
+.link:active {
+    color: rgb(75, 166, 75);
+}
+
+li {
+    list-style: none;
+}
+
+
+
+h4 {
+    color: rgb(245, 245, 80);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    /* background-color: #f4f4f4; */
+    border-radius: 5px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: auto;
+    background-color: rgb(50, 137, 169, 0.7);
+}
+
+.homePart{
+    margin: 0 50px 0 50px;
+    color: white;
+    font-weight: 400;
+
+}
+p{
+    font-size: 18px;
+    padding: 30px;
+}
+
+@media screen and (max-width:650px) {
+    .link {
+
+        font-size: 14px;
+        padding: 10px;
+    }
+    h4{
+        /* padding-top: 50px; */
+    }
+}
+
+@media screen and (max-width:529px) {
+    .link {
+        font-size: 13px;
+        padding: 5px;
+    }
+    h4{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:414px) {
+    #logo {
+        font-size: 20px;
+    }
+
+    h4 {
+        padding-top: 50px;
+        line-height: 40px;
+    }
+
+    .link {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #logo {
+        font-size: 20px;
+    }
+    h4{
+        padding-top: 50px;
+        line-height: 40px;
+    }
+    .link {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #logo {
+        font-size: 15px;
+    }
+
+    h4 {
+        padding-top: 50px;
+        line-height: 40px;
+    }
+
+    .link {
+        font-size: 10px;
+        padding: 5px;
+    }
+}

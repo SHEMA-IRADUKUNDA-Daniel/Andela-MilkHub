@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/create.css">
+    <title>MilkHub</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="navigation">
+            <nav id="navBar">
+                <label><a href="index.html" id="logo">MilkHub</a></label>
+                <ul class="lists">
+                    <li><a href="index.html" class="link">home</a></li>
+                    <li><a href="milkbars.html" class="link">Milk Bars</a></li>
+                    <li><a href="adminlogin.html" class="link">Log out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="innerContainer">
+
+            <h2>Fill this form to create Milk Bar</h2>
+            <div class="forms">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" placeholder="Name" class="input inputName">
+                <label for="tagName">Tag line <span>*</span></label>
+                <input type="text" placeholder="Tag line" class="input inputTagLine">
+                <label for="supplier">Supplier <span>*</span></label>
+                <input type="text" placeholder="Supplier" class="input">
+                <label for="supplier">Upload Milkbar image <span>*</span></label>
+                <input type="file" id="file" class="input">
+                <div class="error"></div>
+                <button type="submit" class="create">Create Milk Bar</button>
+            </div>
+        </div>
+    </div>
+<script src="/create.js"></script>
+</body>
+
+</html>
